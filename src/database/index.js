@@ -1,6 +1,8 @@
 const { connect, set } = require("mongoose");
 const {DBDATA, NODE_ENV} = require("../config/index");
 
+
+//
 /**
  * Obtiene los valores de las variables de entorno para realizar la conexion con mongodb
  */
